@@ -15,6 +15,6 @@ class Github {
   }
 
   Future<http.Response> fetchFollowing() {
-    return http.get(url + 'users/' + userName + '/following' + query);
+    return http.get(url + 'users/' + userName + '/following' + query); // https://api.github.com/users/sayannath/following
   }
 }

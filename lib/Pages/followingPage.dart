@@ -28,31 +28,32 @@ class _FollowingPageState extends State<FollowingPage> {
       });
     });
     return Scaffold(
-      backgroundColor: Colors.grey[100],
+      backgroundColor: Color(0xff212121),
       body: Container(
         child: CustomScrollView(
           slivers: <Widget>[
             SliverAppBar(
-              brightness: Brightness.light,
-              leading: Platform.isAndroid ? IconButton(
-                icon: Icon(
-                  Icons.arrow_back,
-                  color: Colors.white,
-                ),
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-              ): 
-               IconButton(
-                icon: Icon(
-                  Icons.arrow_back_ios,
-                  color: Colors.white,
-                ),
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-              ),
-              backgroundColor: Colors.grey[100],
+              brightness: Brightness.dark,
+              leading: Platform.isAndroid
+                  ? IconButton(
+                      icon: Icon(
+                        Icons.arrow_back,
+                        color: Colors.white,
+                      ),
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                    )
+                  : IconButton(
+                      icon: Icon(
+                        Icons.arrow_back_ios,
+                        color: Colors.white,
+                      ),
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                    ),
+              backgroundColor: Color(0xff212121),
               expandedHeight: 200,
               flexibleSpace: FlexibleSpaceBar(
                 collapseMode: CollapseMode.pin,
@@ -74,7 +75,7 @@ class _FollowingPageState extends State<FollowingPage> {
                       ),
                       Text(
                         user.login,
-                        style: TextStyle(fontSize: 20),
+                        style: TextStyle(fontSize: 20, color: Colors.white),
                       )
                     ],
                   ),
@@ -93,9 +94,9 @@ class _FollowingPageState extends State<FollowingPage> {
                             return Container(
                               padding: EdgeInsets.all(15),
                               decoration: BoxDecoration(
-                                  border: Border(
-                                      bottom:
-                                          BorderSide(color: Colors.grey[200]))),
+                                border: Border(
+                                    bottom: BorderSide(color: Colors.grey)),
+                              ),
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 mainAxisAlignment:
@@ -120,14 +121,13 @@ class _FollowingPageState extends State<FollowingPage> {
                                       Text(
                                         users[index].login,
                                         style: TextStyle(
-                                            fontSize: 20,
-                                            color: Colors.grey[700]),
+                                            fontSize: 20, color: Colors.white),
                                       ),
                                     ],
                                   ),
                                   Text(
                                     'Following',
-                                    style: TextStyle(color: Colors.blue),
+                                    style: TextStyle(color: Colors.green),
                                   )
                                 ],
                               ),
@@ -135,7 +135,11 @@ class _FollowingPageState extends State<FollowingPage> {
                           },
                         )
                       : Container(
-                          child: Align(child: Text('Data is loading ...'))),
+                          child: Align(
+                              child: Text(
+                          'Data is loading ...',
+                          style: TextStyle(color: Colors.white),
+                        ))),
                 )
               ]),
             )
