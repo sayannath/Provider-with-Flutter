@@ -13,9 +13,10 @@
 This Flutter app which helpd you to find the following of your Github Account.📳✨
 
 ## Screenshots
-<img scr="## Screenshots/1.jpeg" atl="Home Screen">
-<img scr="## Screenshots/2.jpeg" atl="Home Screen">
-<img scr="## Screenshots/3.jpeg" atl="Following Screen">
+
+<img scr="Screenshots/1.jpeg">
+<img scr="Screenshots/2.jpeg">
+<img scr="Screenshots/3.jpeg">
 
 ## NOTE:
 This project is subject to change by the developer and is still in development
