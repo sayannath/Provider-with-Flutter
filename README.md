@@ -1,8 +1,6 @@
 # Github Following App
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/) [![GitHub issues](https://img.shields.io/github/issues/S-ayanide/Flutter-BackgroundChanger.svg)](https://github.com/S-ayanide/Flutter-BackgroundChanger/issues)
-[![GitHub forks](https://img.shields.io/github/forks/S-ayanide/Flutter-BackgroundChanger.svg?style=social)](https://github.com/S-ayanide/Flutter-BackgroundChanger/network) [![GitHub stars](https://img.shields.io/github/stars/S-ayanide/Flutter-BackgroundChanger.svg?style=social)](https://github.com/S-ayanide/Flutter-BackgroundChanger/stargazers) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![GitHub license](https://img.shields.io/github/license/S-ayanide/Flutter-BackgroundChanger.svg?style=plastic)](https://github.com/S-ayanide/Flutter-BackgroundChanger/blob/master/LICENSE)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 
 > A basic Flutter app which is made with the help of the providers.
 <br>
@@ -14,9 +12,9 @@ This Flutter app which helpd you to find the following of your Github Account.ðŸ
 
 ## Screenshots
 
-<img scr="Screenshots/1.jpeg">
-<img scr="Screenshots/2.jpeg">
-<img scr="Screenshots/3.jpeg">
+<img src="Screenshots/1.jpeg" />
+<img src="Screenshots/2.jpeg" />
+<img src="Screenshots/3.jpeg" />
 
 ## NOTE:
 This project is subject to change by the developer and is still in development
