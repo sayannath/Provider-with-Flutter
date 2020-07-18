@@ -33,6 +33,7 @@ dependencies:
   shared_preferences: ^0.5.8
   flutter_launcher_icons: ^0.7.0
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
