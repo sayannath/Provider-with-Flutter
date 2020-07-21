@@ -8,7 +8,7 @@
 ### 👉 If you like this repo then please give it a ⭐️
 
 ## Short Description
-This Flutter app which helpd you to find the following of your Github Account.📳✨
+This Flutter app which helps you to find the following of your Github Account.📳✨
 
 ## Screenshots
 
